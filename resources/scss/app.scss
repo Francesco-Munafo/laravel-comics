@@ -1,0 +1,122 @@
+@use '~bootstrap/scss/bootstrap';
+
+
+/* Variables */
+@use './partials/variables' as *;
+
+
+
+
+body{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.cm_active{
+  color: $comics_primary;
+  border-bottom: 4px solid $comics_primary;
+}
+
+.nav_menu{
+  color: $comics_darker;
+  font-weight: 500;
+}
+
+.jumbo{
+  background-image: url(/src/assets/img/jumbotron.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+.products_bg{
+  background-color: $comics_darker;
+  color: $comics_white;
+  margin-bottom: 0;
+}
+
+#services{
+  background-color: $comics_primary;
+}
+
+.service_pic{
+  height: 60px;
+  padding-right: 1rem;
+}
+
+.service{
+  color: $comics_white;
+  padding: 3rem 0;
+}
+
+#app_footer{
+  background-image: url(/src/assets/img/footer-bg.jpg);
+  background-size: cover;
+  padding: 3rem 0;
+}
+
+#app_footer h3{
+  color: $comics_white;
+}
+
+#app_footer a{
+  color: $comics_light_dark;
+  text-decoration: none;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+.footer_logo{
+  top: 0;
+  transform: translateY(-25%);
+}
+
+#footer_bottom{
+  background-color: $comics_dark;
+}
+
+#footer_bottom img{
+  height: 35px;
+  aspect-ratio: 1 / 1;
+  margin-right: 0.5rem;
+  
+}
+
+#footer_bottom h3{
+  color: $comics_primary;
+}
+
+.section_title{
+  background-color: $comics_primary;
+  padding: 0.75rem 1rem;
+  display: inline-block;
+  margin-left: 14rem;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+  vertical-align: super;
+  
+  
+}
+
+.comic_img{
+  width: calc(100% - 2rem);
+}
+
+.comic_img > img{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
+  
+}
+
+.comic_text{
+  font-size: 14px;
+  width: calc(100% - 2rem);
+  margin: 0;
+  text-align: start;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 1rem;
+
+}
