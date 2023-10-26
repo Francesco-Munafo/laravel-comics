@@ -48,7 +48,7 @@ body{
 }
 
 #app_footer{
-  background-image: url(/src/assets/img/footer-bg.jpg);
+  background-image: url(../img/footer-bg.jpg);
   background-size: cover;
   padding: 3rem 0;
 }
@@ -99,7 +99,7 @@ body{
 }
 
 .comic_img{
-  width: calc(100% - 2rem);
+  width: 100%;
 }
 
 .comic_img > img{
@@ -116,7 +116,7 @@ body{
   margin: 0;
   text-align: start;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 700;
   margin-top: 1rem;
 
 }
